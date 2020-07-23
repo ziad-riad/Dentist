@@ -1,0 +1,552 @@
+body{
+    background-color: #fff;
+     margin: 0;
+    color: gray;
+
+}
+ header .head1{
+    background-color: #0095e5;
+    height: 50px;
+}
+  #d1{
+      float: right;
+      padding-top: 15px;
+      padding-right: 40px;
+      
+  }
+  #d1 a{
+      color: #fff;
+      
+  }
+  #d1 #a1 {
+      font-style: italic;
+      font-weight: 700;
+      font-size: 15px;
+      font-family: Arial, Helvetica, ;
+  }
+  #d1 #a2 {
+      font-weight: 900;
+      font-size: 20px;
+  }
+  #nav1{
+      
+      padding: 15px 70px ;
+  }
+  #nav1 a {
+      padding-left: 20px;
+      opacity: 0.6;
+  }
+  header.head2{
+      background-color: #fff;
+      height: 100px;
+      margin: 0;
+  }
+  #dd1{
+      clear: both;
+      float: left;
+      padding: 30px;
+
+      
+  }
+  #dd1 h1 span {
+      color:#0095e5 ;
+  }
+  #nav2 {
+      
+      float: right;
+      padding: 40px 150px ;
+      
+      
+  }
+  #nav2 a {
+      padding: 30px;
+      opacity: .8;
+  }
+  #nav2 h3 {
+      display: inline;
+      color: #696666;
+       font-size: 20px;
+       font-family: verdana;
+      
+  }
+  #nav2 h3 span{
+      color: gray;
+      font-size: 15px;
+      font-weight: 100;
+  }
+  header .head3{
+      clear: both;
+      background-color: #fff;
+      height: 70px;
+      box-sizing: border-box;
+      border: gray 1px solid;
+      border-bottom: none;
+      border-right: none;
+  }
+   .head3 nav {
+       float: left;
+       margin-left: 70px;
+      padding: 20px ;
+       
+  }
+  .head3 nav a {
+      padding-right: 50px;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Alegreya Sans, Helvetica, Arial, sans-serif;
+      color: #0095e5;
+    }
+     .head3 nav a:hover{
+        color:  rgb(104, 103, 103) ;
+    }
+     #home{
+        color: rgb(104, 103, 103);
+    }
+    .head3 div {
+        float: right;
+        margin-right: 70px;
+        padding: 20px;
+    }
+    .head3 div img:hover{
+      color: #0095e5;
+    }
+     .hoffman {
+        clear: both;
+        margin: 1px;
+        position: relative;
+        text-align: center;
+        color: #0095e5;
+    }
+    .centered{
+        position: absolute;
+        top: 20%;
+        bottom: 70%;
+        font-family: verdana ;
+        left: 7%;
+    }
+
+    .centered h1{
+        font-weight: 800;
+        
+        font-size: 60px;
+        line-height: 1;
+    }
+    .centered h1 span{
+        font-weight: 300;
+    }
+    .centered h6 {
+        color: #616262;
+        margin-top: 10px;
+        font-size: 23px;
+        line-height: 1;
+        font-weight: lighter;
+
+    }
+    .centered a {
+        padding-left:50px;
+
+    }
+    .hoffman a{
+         margin: 32px  ;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 800;
+        font-size: 20px;
+        background-color: #0584c9;
+        border-color: #0679b8;
+        border-radius: 3px;
+        background-origin: padding-box;
+        padding: 15px 15px; 
+    }
+    .welcome {
+        margin-top: 80px;
+    }
+    .pic{
+        float: left;
+        padding-left: 75px;
+        padding-right:40px ;
+        
+    }
+    
+    .txt h1 h4 p{
+        float: right;
+        width: 30%;
+        
+        
+    }
+    .txt h1  {
+        
+        font-family: verdana;
+        font-weight: 900;
+        font-size: 36px;
+        color:#0095e5 ;
+        line-height: 1.5;
+    }
+    .txt h4 {
+        
+        font-family: verdana;
+        font-weight: 200;
+        font-size: 24px;
+        color:#0095e5 ;
+    }
+    .txt h1, h4{
+        line-height: 0.8;
+    }
+    .txt p {
+        
+        text-align: justify;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 17px;
+        font-family: verdana ;
+        padding-right: 40px;
+    }
+    .txt p span{
+        font-weight: 600;
+        font-style: italic;
+        font-family: Cursive ;
+    }
+    .footmain{
+        margin-top: 60px;
+        background-color: #0095e5;
+        width: 100%;
+        height:650px ;
+    }
+    .hfoot {
+        text-align: center;
+        padding-top: 40px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .nfoot{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .nfoot a{
+        padding-right: 140px;
+        opacity: 0.7;
+    }
+    .nfoot a img{
+        border-radius: 50%;
+        border: solid 2px #fff;
+        
+    }
+    #desc div {
+        float: right;
+        width: 20%;
+        font-family: verdana;
+        font-size: 20px;
+        padding-right: 55px;
+        color: #fff;
+    }
+    #desc p{
+        display: inline;
+        text-align: center;
+        text-align: justify;
+        font-size: 17px;
+        font-family:inherit;
+    }
+    .our{
+        margin-top: 60px;
+    }
+    .our h1 {
+        text-align: center;
+        color:#0095e5;
+        font-family: verdana;
+        font-size: 36px;
+    }
+    .our a{
+        padding-left: 40px;
+        padding-right: 22px;
+    }
+    .our div{
+        
+        padding-top: 30px;
+    }
+    .our div a  {
+        display: inline;
+        padding-right: 35px;
+        font-family: verdana;
+        font-weight: 500;
+        font-size: 22px;
+        text-decoration: none;
+        color: #0095e5;
+        
+        
+    
+    }
+    .our #btn {
+        padding-top:100px ;
+        padding-left: 40%;
+        padding-bottom: 100px;
+    }
+    .our #btn a{
+        margin: 32px  ;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 800;
+        font-size: 17px;
+        background-color: #0584c9;
+        border-color: #0679b8;
+        border-radius: 3px;
+        background-origin: padding-box;
+        padding: 13px 13px;     
+    }
+    .person{
+        background-color: #f5eeee;
+        height: 530px;
+    }
+    .person h1 {
+        padding-top: 80px;
+        text-align: center;
+        color: #0584c9;
+        font-family: verdana;
+    }
+    .person a {
+        padding-right: 150px;
+        padding-left: 150px;
+        
+    }
+    .person a img{
+        border-radius: 50%;
+        border: solid 1px #fff;
+    }
+    .person div h1 {
+        display: inline;
+        font-size: 70px;
+        font-family:monospace;
+        padding-left: 50px;
+    }
+    .person      p{
+        text-align: justify;
+        font-weight: 70;
+        font-style: normal;
+        font-size: 17px;
+        font-family: verdana ;
+        
+        display: inline-flex;
+        padding-left: 40px;
+    }
+    .person div h4 {
+        display: inline;
+        font-family: verdana;
+        color: rgb(78, 77, 77);
+        padding-right: 142px;
+        padding-left: 32px;
+    }
+    .person div h4 span{
+        font-weight: 100;
+        opacity: 0.7;
+    }
+    .help{
+        background-color:#0095e5 ;
+        height: 270px;
+    }
+    .help h1, h3 {
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, ;
+        
+        
+    }
+    .help div {
+        padding-top: 60px;
+        padding-left: 70px;
+        float: left;
+       
+    }
+    .help h1 {
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .help h3 {
+        font-weight: 300;
+        font-size: 24px;
+        font-style: oblique;
+    }
+     .help #btn2 {
+        clear: both;
+        float: right;
+        padding-top: 150px;
+        padding-right: 50px;
+        
+
+    }
+    .help #btn2 a {
+        margin: 32px  ;
+        text-decoration: none;
+        color: #0584c9;
+        font-weight: 800;
+        font-size: 17px;
+        font-family: verdana;
+        background-color: #fff;
+        border-color: #fff;
+        border-radius: 3px;
+        background-origin: padding-box;
+        padding: 13px 13px;     
+    }
+    .help #btn2 a:hover{
+        background-color:#035f91 ;
+        color: #fff;
+    }
+    .lastmain{
+        margin-top: 90px;
+    }
+    .lastmain h1{
+        text-align: center;
+        color:#0095e5 ;
+        font-family: verdana;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .recentpic{
+        padding-left: 30px;
+    }
+    .recentpic a img{
+        padding: 20px;
+        display: inline;
+        
+    }
+     .ext a {
+         padding-right: 30px;
+        padding-left: 45px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #0095e5;
+        font-family: verdana;
+        font-weight: 600;
+
+    }
+    .john{
+        padding-top: 20px;
+    }
+    .john p {
+        display: inline;
+        margin-left: 40px;
+        padding-right: 80px;
+        font-weight: 600;
+        font-size: 20px;
+        font-style: oblique;
+        
+    }
+    .john p span{
+        color: rgb(78, 76, 76);
+    }
+    .john p a{
+        color: #0095e5;
+        text-decoration: none;
+    }
+    .johndesc{
+        margin-left: 40px;
+    }
+    .johndesc p {
+        display: inline-flex;
+        font-family: verdana;
+        padding-right: 40px;
+        font-weight: 300;
+        color: gray;
+    }
+    #btn3{
+        margin-top: 60px;
+        text-align: center;
+    }
+    #btn3 a {
+        margin: 32px  ;
+        text-decoration: none;
+        color:#fff ;
+        font-weight: 800;
+        font-size: 17px;
+        font-family: verdana;
+        background-color: #0584c9;
+        border-color: #fff;
+        border-radius: 3px;
+        background-origin: padding-box;
+        padding: 13px 13px;     
+    }
+    .foot1{
+        margin-top: 100px; 
+        height: 400px;
+        background-color: rgb(49, 49, 49);
+    }
+    .foot1 div{
+        display: inline-block ;
+        font-family: verdana;
+        padding-top: 70px;
+        margin-left: 50px;
+    }
+    .foot1 div a{
+        display: block;
+        text-decoration: none;
+        color:#0584c9 ;
+        padding-top: 3px;
+    }
+    .foot1 div h1 {
+        color: #fff;
+    }
+    .foot1 div h1 span {
+        color: #0584c9;
+    }
+    .foot1 div h4{
+        color: #fff;
+    }
+    .foot1 div img{
+        border: #0584c9 solid 2px ;
+        border-radius: 50%;
+        
+    }
+     #three h4 {
+         padding-bottom: 16px;
+     }
+     .foot1 #four a {
+         color:gray;
+         padding-left: 50px;
+         margin-top: -10px;
+     }
+     .foot1 #four a:hover{
+         color: #0584c9;
+     }
+     .foot2{
+         background-color: rgb(43, 41, 41);
+         height: 50px;
+         margin-top: 0;
+         padding: 10px;
+     }
+     .foot2 nav{
+         clear: both;
+         float: right;
+         padding: 15px;
+     }
+     .foot2 nav a {
+         padding-right: 30px;
+     }
+     .foot2 div p {
+         padding-left: 30px;
+     }
+     .foot2 div a{
+         color: #FFF;
+         text-decoration: none;
+         
+     }
+     .foot2 div a span {
+         color: #0584c9;
+     }
+     
+     
+     
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+  
